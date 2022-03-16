@@ -1,0 +1,46 @@
+.product-template{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.product-template h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #777;
+    text-align: center;
+    margin: 15px 0;
+}
+.product-template img{
+    max-width: 250px;
+}
+.product-template p{
+    text-align: center;
+    margin: 15px 0;
+    color: #777;
+    font-weight: 600;
+}
+.product-template button{
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.product-template button:hover{
+    background-color: #111;
+    color: #fff;
+}
+.arrowLeft{
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    font-weight: 600;
+    color: orangered;
+}

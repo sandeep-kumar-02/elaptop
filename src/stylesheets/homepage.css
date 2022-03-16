@@ -1,0 +1,90 @@
+.container{
+    padding-top: 20px;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.col{
+    width: 350px;
+    padding: 20px 40px;
+    border: 1px solid #777;
+    box-shadow: 0 0 10px #111;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.col h5{
+    text-align: center;
+    font-size: 1rem;
+    margin: 30px 0;
+}
+.col img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.col p{
+    text-align: center;
+    color: #777;
+    margin: 30px 0;
+}
+
+.product-action{
+    position: absolute;
+    background-color: black;
+    bottom: 0;
+    top: 100%;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    transition: top 1s;
+}
+.col:hover .product-action{
+    position: absolute;
+    top: 0;
+}
+.product-action h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+    font-size: 2rem;
+}
+.product-action .rupee{
+    font-size: 1.1rem;
+    color: red;
+}
+.action-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.action-buttons button{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.action-buttons button:hover{
+    background-color: #fff;
+    color: #111;
+    border: 2px solid black;
+}
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+.cart-table{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.cart-table tr,th,td{
+    border-bottom: 1px solid #777;
+    padding: 5px 10px;
+    text-align: center;
+}
+.cart-table .delete-cart-item{
+    cursor: pointer;
+    color: red;
+}
+.total-amount{
+    border-bottom: 2px solid #777;
+    color: green;
+    font-size: 2rem;
+    text-align: center;
+    margin: 25px auto;
+}
+.place-order{
+    position: absolute;
+    right: 10%;
+}
+.place-order button{
+    border: 1px solid black;
+    color: #111;
+    outline: none;
+    padding: 10px 25px;
+    background-color: transparent;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.place-order button:hover{
+    background-color: #111;
+    color: #fff;
+}
+

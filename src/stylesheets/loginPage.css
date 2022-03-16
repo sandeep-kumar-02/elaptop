@@ -1,0 +1,71 @@
+.login-container{
+    width: 70%;
+    margin: auto;
+    padding-top: 80px;
+}
+.login-container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.row .col-1{
+    width: 50%;
+}
+.row .col-2{
+    width: 50%;
+}
+.row .col-2 hr{
+   height: 3px;
+   background-color: #999;
+   margin: 10px 0;
+}
+
+.col-2 .form h2{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #777;
+    text-align: center;
+    margin: 10px 0;
+}
+.col-2 .form input{
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.col-2 .form button{
+    border:1px solid #111;
+    background-color: transparent;
+    outline: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: block;
+    margin: 15px auto;
+    transition: 0.5s;
+}
+.col-2 .form button:hover{
+    color: #fff;
+    background-color: #111;
+}
+.col-2 .form a{
+    text-decoration: none;
+    border:1px solid #111;
+    background-color: transparent;
+    outline: none;
+    color: #111;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: block;
+    width: fit-content;
+    margin: 15px auto;
+    transition: 0.5s;
+}
+.col-2 .form a:hover{
+    color: #fff;
+    background-color: #111;
+}
